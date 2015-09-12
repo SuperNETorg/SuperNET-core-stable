@@ -50,3 +50,11 @@ optional:
 ```
 make api -f Makefile.win OS=win32
 ```
+
+##Do make clean before building SuperNET for another platform :
+```
+make clean
+make clean -f Makefile.win
+make clean -f Makefile.win OS=win32
+make clean -f Makefile.osx
+```
