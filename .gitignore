@@ -1,0 +1,8 @@
+*.a
+*.o
+mxe/
+libs/
+miniupnpc/
+picocoin/
+websocketd/
+SuperNET.conf
