@@ -18,7 +18,7 @@ make api
 ### osx :
 ```
 make dependencies -f Makefile.osx
-make winpatch -f Makefile.osx
+make onetime -f Makefile.osx
 make SuperNET -f Makefile.osx
 ```
 
