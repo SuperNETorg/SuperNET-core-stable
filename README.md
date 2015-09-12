@@ -27,7 +27,7 @@ optional:
 make api -f Makefile.osx
 ```
 
-### windows cross-compile from unix :
+### windows 64-bit cross-compile from unix :
 ```
 make dependencies -f Makefile.win
 make winpatch -f Makefile.win
@@ -37,4 +37,16 @@ make SuperNET -f Makefile.win
 optional:
 ```
 make api -f Makefile.win
+```
+
+### windows 32-bit cross-compile from unix :
+```
+make dependencies -f Makefile.win OS=win32
+make winpatch -f Makefile.win OS=win32
+make SuperNET -f Makefile.win OS=win32
+```
+
+optional:
+```
+make api -f Makefile.win OS=win32
 ```
